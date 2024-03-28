@@ -7,52 +7,52 @@ const Home = () => {
     const viewCollections = [
         {
             id: 1,
-            imgLocation: "src/assets/images/Car View/View 1.jpg",
+            imgLocation: "./images/Car View/View 1.jpg",
             alt: "View 1"
         },
         {
             id: 2,
-            imgLocation: "src/assets/images/Car View/View 2.jpg",
+            imgLocation: "./images/Car View/View 2.jpg",
             alt: "View 2"
         },
         {
             id: 3,
-            imgLocation: "src/assets/images/Car View/View 3.jpg",
+            imgLocation: "./images/Car View/View 3.jpg",
             alt: "View 3"
         },
         {
             id: 4,
-            imgLocation: "src/assets/images/Car View/View 4.jpg",
+            imgLocation: "./images/Car View/View 4.jpg",
             alt: "View 4"
         },
         {
             id: 5,
-            imgLocation: "src/assets/images/Car View/View 5.jpg",
+            imgLocation: "./images/Car View/View 5.jpg",
             alt: "View 5"
         },
         {
             id: 6,
-            imgLocation: "src/assets/images/Car View/View 6.jpg",
+            imgLocation: "./images/Car View/View 6.jpg",
             alt: "View 6"
         },
         {
             id: 7,
-            imgLocation: "src/assets/images/Car View/View 7.jpg",
+            imgLocation: "./images/Car View/View 7.jpg",
             alt: "View 7"
         },
         {
             id: 8,
-            imgLocation: "src/assets/images/Car View/View 8.jpg",
+            imgLocation: "./images/Car View/View 8.jpg",
             alt: "View 8"
         },
         {
             id: 9,
-            imgLocation: "src/assets/images/Car View/View 9.jpg",
+            imgLocation: "./images/Car View/View 9.jpg",
             alt: "View 9"
         },
         {
             id: 10,
-            imgLocation: "src/assets/images/Car View/View 10.jpg",
+            imgLocation: "./images/Car View/View 10.jpg",
             alt: "View 10"
         },
     ];
@@ -73,13 +73,13 @@ const Home = () => {
         <section className="features">
             <main className="engine-link">
             <Link to="/engine">
-                <img src="src/assets/images/08 BUGATTI_W16.jpg" alt="engine image" />
+                <img src="./images/08 BUGATTI_W16.jpg" alt="engine image" />
             </Link>
             <h4 className="quicksand-semibold">Engine</h4>
             </main>
             <main className="interior-link">
             <Link to="/interior">
-                <img src="src/assets/images/Bugatti-Interior-Image-Icon.jpg" alt="interior image" />
+                <img src="./images/Bugatti-Interior-Image-Icon.jpg" alt="interior image" />
             </Link>
             <h4 className="quicksand-semibold">Interior</h4>
             </main>

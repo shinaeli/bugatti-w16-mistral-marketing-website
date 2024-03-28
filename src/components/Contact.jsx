@@ -20,7 +20,7 @@ const Contact = () => {
 
     async function postContact(testContact) {
         try {
-            const response = await fetch('https://separated-candle-grapple.glitch.me/Mock-11-Backend-master/db.json', {
+            const response = await fetch('http://localhost:8000/contacts', {
                 method: 'POST',
                 body: JSON.stringify(testContact),
                 headers: {
