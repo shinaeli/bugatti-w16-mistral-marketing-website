@@ -291,7 +291,7 @@ form button:active, .contact-link:active, .back-to-home:active {
   form {
     width: 95%;
     margin: 0px auto;
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
   }
   
   form main {
