@@ -6,57 +6,57 @@ const Engine = () => {
     const viewCollections = [
         {
             id: 1,
-            imgLocation: "images/Engine View/View 1.jpg",
+            imgLocation: "src/assets/images/Engine View/View 1.jpg",
             alt: "View 1"
         },
         {
             id: 2,
-            imgLocation: "images/Engine View/View 2.jpg",
+            imgLocation: "src/assets/images/Engine View/View 2.jpg",
             alt: "View 2"
         },
         {
             id: 3,
-            imgLocation: "images/Engine View/View 3.jpg",
+            imgLocation: "src/assets/images/Engine View/View 3.jpg",
             alt: "View 3"
         },
         {
             id: 4,
-            imgLocation: "images/Engine View/View 4.jpg",
+            imgLocation: "src/assets/images/Engine View/View 4.jpg",
             alt: "View 4"
         },
         {
             id: 5,
-            imgLocation: "images/Engine View/View 5.jpg",
+            imgLocation: "src/assets/images/Engine View/View 5.jpg",
             alt: "View 5"
         },
         {
             id: 6,
-            imgLocation: "images/Engine View/View 6.jpg",
+            imgLocation: "src/assets/images/Engine View/View 6.jpg",
             alt: "View 6"
         },
         {
             id: 7,
-            imgLocation: "images/Engine View/View 7.jpg",
+            imgLocation: "src/assets/images/Engine View/View 7.jpg",
             alt: "View 7"
         },
         {
             id: 8,
-            imgLocation: "images/Engine View/View 8.jpg",
+            imgLocation: "src/assets/images/Engine View/View 8.jpg",
             alt: "View 8"
         },
         {
             id: 9,
-            imgLocation: "images/Engine View/View 9.jpg",
+            imgLocation: "src/assets/images/Engine View/View 9.jpg",
             alt: "View 9"
         },
         {
             id: 10,
-            imgLocation: "images/Engine View/View 10.jpg",
+            imgLocation: "src/assets/images/Engine View/View 10.jpg",
             alt: "View 10"
         },
         {
             id: 11,
-            imgLocation: "images/Engine View/View 11.jpg",
+            imgLocation: "src/assets/images/Engine View/View 11.jpg",
             alt: "View 11"
         }
     ];
