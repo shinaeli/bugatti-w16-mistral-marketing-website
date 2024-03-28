@@ -7,6 +7,7 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [responseMsg, setResponseMsg] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    // http://localhost:8000/contacts
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -19,7 +20,7 @@ const Contact = () => {
 
     async function postContact(testContact) {
         try {
-            const response = await fetch('http://localhost:8000/contacts', {
+            const response = await fetch('https://separated-candle-grapple.glitch.me/Mock-11-Backend-master/db.json', {
                 method: 'POST',
                 body: JSON.stringify(testContact),
                 headers: {
