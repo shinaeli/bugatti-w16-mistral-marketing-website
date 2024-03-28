@@ -5,7 +5,6 @@ const Contact = () => {
     const [message, setMessage] = useState('');
     const [region, setRegion] = useState('');
     const [email, setEmail] = useState('');
-    const [responseMsg, setResponseMsg] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
     // http://localhost:8000/contacts
 
@@ -20,7 +19,7 @@ const Contact = () => {
 
     async function postContact(testContact) {
         try {
-            const response = await fetch('http://localhost:8000/contacts', {
+            const response = await fetch('https://bugatti-w16-backend.onrender.com/contacts', {
                 method: 'POST',
                 body: JSON.stringify(testContact),
                 headers: {
@@ -32,8 +31,7 @@ const Contact = () => {
               } else {
                 const data = await response.json();
                 console.log(data);
-                setResponseMsg("Message sent!");
-                alert(responseMsg);
+                alert('Message Sent and Received!');
                 setSubject('');
                 setMessage('');
                 setRegion('');
