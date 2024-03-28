@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:  url('images/bugatti-eb-1-logo-png-transparent.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: gray; */
+  background-color: #5C4033;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  /* color: #5C4033; */
+  color: yellow;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 700 */
+
+.quicksand-bold {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.quicksand-semibold {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.quicksand-medium {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.quicksand-regular {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand-light {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+  /* border: 2px solid yellowgreen */
+}
+
+.title {
+  padding: 30px 50px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: yellow;
+  /* color: #5C4033; */
+}
+
+.container-img {
+  margin: 20px auto;
+  width: 100%;
+  height: 800px;
+  /* border: 2px solid greenyellow; */
+  border-radius: 10px;
+}
+
+.container-img img {
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.description {
+  margin: 20px 0px;
+  padding: 10px 20px;
+}
+
+.description p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.engine-link, .interior-link {
+  display: block;
+  width: 30%;
+  height: 220px;
+  /* border: 2px solid #5C4033; */
+}
+
+.engine-link h4, .interior-link h4 {
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 1.5rem
+}
+
+.engine-link img, .interior-link img {
+  border-radius: 8px;
+  border: 2px solid yellow;
+}
+
+.engine-link img:hover, .interior-link img:hover {
+  cursor: pointer;
+  opacity: 0.35;
+}
+
+.contact-link, .back-to-home {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+  margin: 50px auto 15px;
+  color: yellow;
+  background-color: black;
+  padding: 15px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  /* border: 2px solid #5C4033; */
+}
+
+.contact-link:hover, form button:hover, .back-to-home:hover {
+  background-color: yellow;
+  color: black;
+}
+
+form {
+  width: 90%;
+  margin: 0px auto;
+  /* border: 2px solid orangered; */
+}
+
+form main {
+  width: 60%;
+  margin: 0px auto;
+  /* border: 2px solid blue; */
+  padding: 30px;
+}
+
+.info {
+  margin: 15px 0px;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+select {
+  width: 40%;
+  height: 40px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+form button {
+  display: block;
+  width: 35%;
+  margin: 50px auto 30px;
+  color: yellow;
+  background-color: black;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+
+form button:active, .contact-link:active, .back-to-home:active {
+  color: #5C4033;
+  background-color: black;
+}
+
+.error {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+}
+
+.error-main-title {
+  font-size: 4.5rem;
+  margin: 50px 0px;
+  padding: 20px 0px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.error-sub-title {
+  font-size: 3rem;
+  margin: 30px 0px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.error-text {
+  font-size: 2rem;
+  width: 80%;
+  margin: 30px auto;
+  padding: 10px 0px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 480px) {
+  .container-img {
+    margin: 20px auto;
+    width: 100%;
+    height: 250px;
+    /* border: 2px solid greenyellow; */
+    border-radius: 10px;
+  }
+
+  .title {
+    padding: 30px;
+    font-size: 2.5rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+
+  .features {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+  }
+
+  .engine-link, .interior-link {
+    width: 80%;
+    margin: 15px auto 45px;
+  }
+
+  .engine-link h4, .interior-link h4 {
+    font-size: 1.2rem
+  }
+
+  .contact-link {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  form {
+    width: 95%;
+    margin: 0px auto;
+    border: 2px solid orangered;
+  }
+  
+  form main {
+    width: 100%;
+    padding: 0px;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+  
+  input {
+    font-size: 1rem;
+  }
+
+  select {
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  textarea {
+    font-size: 1rem;
+  }
+
+  form button {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+  
+  .error-main-title {
+    font-size: 3.5rem;
+    margin: 30px 0px;
+  }
+  
+  .error-sub-title {
+    font-size: 2rem;
+    margin: 15px 0px;
+  }
+  
+  .error-text {
+    font-size: 1.2rem;
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .back-to-home {
+    width: 50%;
+    font-size: 1.2rem;
+  }
+}
