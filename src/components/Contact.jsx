@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useNavigation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
     const [subject, setSubject] = useState('');
@@ -7,7 +7,7 @@ const Contact = () => {
     const [region, setRegion] = useState('');
     const [email, setEmail] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-    const navigate = useNavigation();
+    const navigate = useNavigate();
     // http://localhost:8000/contacts
 
     const handleSubmit = e => {
