@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigation } from 'react-router-dom';
 
 const Contact = () => {
     const [subject, setSubject] = useState('');
@@ -6,6 +7,7 @@ const Contact = () => {
     const [region, setRegion] = useState('');
     const [email, setEmail] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const navigate = useNavigation();
     // http://localhost:8000/contacts
 
     const handleSubmit = e => {
@@ -36,6 +38,7 @@ const Contact = () => {
                 setMessage('');
                 setRegion('');
                 setEmail('');
+                navigate('/');
               }
         } catch (error) {
             setErrorMessage(error.message);
