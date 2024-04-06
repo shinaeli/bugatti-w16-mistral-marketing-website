@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image:  url('./images/bugatti-eb-1-logo-svg-vector.svg');
+  background-image:  url('/images/bugatti-eb-1-logo-svg-vector.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,7 +58,7 @@ body {
 .container {
   width: 90%;
   margin: 0px auto;
-  /* border: 2px solid yellowgreen */
+  /* border: 2px solid yellowgreen; */
 }
 
 .title {
@@ -126,6 +126,7 @@ img {
 }
 
 .engine-link img:hover, .interior-link img:hover {
+  transition: opacity .8s ease-in;
   cursor: pointer;
   opacity: 0.35;
 }
@@ -145,6 +146,7 @@ img {
 }
 
 .contact-link:hover, form button:hover, .back-to-home:hover {
+  transition: background-color 1s ease-in, color 1s ease-in;
   background-color: yellow;
   color: black;
 }
@@ -217,16 +219,12 @@ form button:active, .contact-link:active, .back-to-home:active {
 }
 
 .error {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  height: 100%;
+  height: 100vh;
 }
 
 .error-main-title {
   font-size: 4.5rem;
-  margin: 50px 0px;
+  /* margin: 50px 0px; */
   padding: 20px 0px;
   text-align: center;
   /* border: 2px solid red; */
@@ -323,7 +321,7 @@ form button:active, .contact-link:active, .back-to-home:active {
   
   .error-main-title {
     font-size: 3.5rem;
-    margin: 30px 0px;
+    /* margin: 30px 0px; */
   }
   
   .error-sub-title {
