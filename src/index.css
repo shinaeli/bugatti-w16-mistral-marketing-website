@@ -246,6 +246,21 @@ form button:active, .contact-link:active, .back-to-home:active {
   line-height: 1.5;
 }
 
+.footer {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #5C4033;
+}
+
 /* Media Query */
 @media (min-width: 320px) and (max-width: 480px) {
   .container-img {
@@ -338,5 +353,9 @@ form button:active, .contact-link:active, .back-to-home:active {
   .back-to-home {
     width: 50%;
     font-size: 1.2rem;
+  }
+
+  .footer {
+    width: 95%;
   }
 }

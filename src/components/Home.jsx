@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Carousel from './utils/Carousel'
+import Footer from './Footer'
 
 
 const Home = () => {
@@ -85,6 +86,7 @@ const Home = () => {
             </main>
         </section>
         <Link className='quicksand-semibold contact-link' to="/contact">Contact Us</Link>
+        <Footer />
     </div>
   )
 }
